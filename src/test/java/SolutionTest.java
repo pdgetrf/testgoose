@@ -26,7 +26,7 @@ public class SolutionTest {
                 assertEquals(results.get(j), testCase.expect.get(j));
             }
         }
-        assertEquals(1,0);
+        assertEquals(2, 0);
     }
 
     private List<TestCase> getTestCases() {
