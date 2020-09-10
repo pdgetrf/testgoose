@@ -6,7 +6,7 @@ class Solution {
         List<String> result = new ArrayList<>();
 
         // homework: uncomment the following line
-        helper(1, 0, n, "", result);
+        helper(0, 0, n, "", result);
         return result;
     }
 
