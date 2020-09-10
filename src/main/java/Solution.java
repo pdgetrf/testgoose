@@ -4,7 +4,9 @@ import java.util.List;
 class Solution {
     public static List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
-        helper(0, 0, n, "", result);
+
+        // homework: uncomment the following line
+        //helper(0, 0, n, "", result);
         return result;
     }
 
