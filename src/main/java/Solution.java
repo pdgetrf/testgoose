@@ -6,7 +6,7 @@ class Solution {
         List<String> result = new ArrayList<>();
 
         // homework: uncomment the following line
-        //helper(0, 0, n, "", result);
+        helper(0, 0, n, "", result);
         return result;
     }
 
@@ -22,5 +22,16 @@ class Solution {
         if (open > close) {
             helper(open, close + 1, n, partial + ")", result);
         }
+    }
+
+    public static void main(String[] args) {
+        // use for debugging. empty this function before the final submission.
+    }
+
+    private Solution() {
+        // Private constructor to exclude the Solution
+        // class itself from jacoco coverage calculation
+        // https://www.nerd.vision/post/jacoco-coverage-of-util-classes
+        // left intentionally empty
     }
 }
